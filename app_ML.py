@@ -29,8 +29,8 @@ def run_ML_app():
 
     if st.button('Predict purcahse price'):
         selected_data = np.array([gender, age, salary, debt, worth])
-        selected_data = selected_data.reshape(1,5)
-        y_pred = regressor.predict(selected_data)
+        shape_data = selected_data.reshape(1,5)
+        y_pred = regressor.predict(shape_data)
         st.text(y_pred)
     else:
         pass
