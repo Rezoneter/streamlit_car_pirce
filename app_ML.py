@@ -33,9 +33,10 @@ def run_ML_app():
         y_pred = regressor.predict(shape_data)
         st.text(y_pred)
         price = y_pred[0]
+        if price <= 0:
+            st.text('Hard to purchase some car')
+        else:
+            st.text('Easy to purchase some car')
     else:
-        pass
-    if price <= 0:
-        st.text('Hard to purchase some car')
-    else:
-        st.text('Easy to purchase some car')
+        st.text('')
+    
