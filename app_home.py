@@ -2,8 +2,8 @@ import streamlit as st
 
 def run_home_app():
     st.subheader('Welcome')
-    st.text('This application is info of customers and puchase of car data')
-    st.text('If you enter cuntom info, predict the car price')
+    st.text('This application is info of customers and purchase of car data')
+    st.text('If you enter cuntomer info, predict the car price')
 
     st.text('This application is batch to AWS')
     
