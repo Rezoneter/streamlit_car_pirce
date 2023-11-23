@@ -4,7 +4,7 @@ from app_EDA import run_EDA_app
 from app_ML import run_ML_app
 
 def main():
-    st.title('Car price predict Dashboard ')
+    st.title('-Car price predict Dashboard- ')
     menu = ['home', 'EDA', 'ML']
 
     choice = st.sidebar.selectbox('Select Menu', menu)
