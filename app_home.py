@@ -1,7 +1,7 @@
 import streamlit as st
 
 def run_home_app():
-    st.subheader('Welcome')
+    st.subheader('Welcome~~')
     st.text('This application is info of customers and purchase of car data')
     st.text('If you enter cuntomer info, predict the car price')
 
